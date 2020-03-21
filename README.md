@@ -1,6 +1,14 @@
 # Learn-GraphQL
 
-## Queries
+## Set up server
+- npm init
+- npm i express express-graphql graphql
+- npm install --save-dev nodemon
+
+## Start server
+- npm run devStart
+
+## Example Queries
 ```
 query {
   author(id: 1) {

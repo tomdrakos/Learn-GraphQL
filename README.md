@@ -10,6 +10,7 @@
 
 ## Example Queries
 ```
+// query data
 query {
   author(id: 1) {
     id
@@ -17,6 +18,7 @@ query {
   }
 }
 
+// query data
 query {
   book(id: 1) {
     id
@@ -24,6 +26,7 @@ query {
   }
 }
 
+// query data
 query {
   books {
     id
@@ -35,6 +38,7 @@ query {
   }
 }
 
+// query data
 query {
   books {
     id
@@ -45,6 +49,7 @@ query {
   }
 }
 
+// edit data
 mutation {
   addBook(name: "Super book", authorId: 1) {
     id,

@@ -1,9 +1,7 @@
 # Learn-GraphQL
 
 ## Set up server
-- npm init
-- npm i express express-graphql graphql
-- npm install --save-dev nodemon
+- npm install
 
 ## Start server
 - npm run devStart

@@ -5,6 +5,7 @@
 
 ## Start server
 - npm run devStart
+- navigate to localhost:5000/graphql
 
 ## Example Queries
 ```

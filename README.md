@@ -1,11 +1,7 @@
 # Learn-GraphQL
 
-#Queries
-
-query {
-  message
-}
-
+## Queries
+```
 query {
   author(id: 1) {
     id
@@ -54,3 +50,4 @@ mutation {
     }
   }
 }
+```
